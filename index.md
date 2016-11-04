@@ -5,25 +5,27 @@
 layout: home
 ---
 
-- lp: {% icon fa-circle-o %}
-- rp: {% icon fa-circle %}
-- lk: {% icon fa-square-o %}
-- rk: {% icon fa-square %}
+- lp: {% raw %}<i class="fa fa-circle-o" aria-hidden="true"></i>{% endraw %}
+- rp: {% raw %}<i class="fa fa-circle" aria-hidden="true"></i>{% endraw %}
+- lk: {% raw %}<i class="fa fa-square-o" aria-hidden="true"></i>{% endraw %}
+- rk: {% raw %}<i class="fa fa-square" aria-hidden="true"></i>{% endraw %}
 
 폴 10단
 
     lprplklprkrplprkrplp
 
-{% icon fa-circle-o %}
-{% icon fa-circle %}
-{% icon fa-square-o %}
-{% icon fa-circle-o %}
-{% icon fa-square %}
-{% icon fa-circle %}
-{% icon fa-circle-o %}
-{% icon fa-square %}
-{% icon fa-circle %}
-{% icon fa-circle-o %}
+{% raw %}
+<i class="fa fa-circle-o" aria-hidden="true"></i>
+<i class="fa fa-circle" aria-hidden="true"></i>
+<i class="fa fa-square-o" aria-hidden="true"></i>
+<i class="fa fa-circle-o" aria-hidden="true"></i>
+<i class="fa fa-square" aria-hidden="true"></i>
+<i class="fa fa-circle" aria-hidden="true"></i>
+<i class="fa fa-circle-o" aria-hidden="true"></i>
+<i class="fa fa-square" aria-hidden="true"></i>
+<i class="fa fa-circle" aria-hidden="true"></i>
+<i class="fa fa-circle-o" aria-hidden="true"></i>
+{% endraw %}
 
 -----------------------------
 
@@ -31,6 +33,8 @@ layout: home
 
     66rp
 
-{% icon fa-arrow-right %}
-{% icon fa-arrow-right %}
-{% icon fa-circle %}
+{% raw %}
+<i class="fa fa-arrow-right" aria-hidden="true"></i>
+<i class="fa fa-arrow-right" aria-hidden="true"></i>
+<i class="fa fa-circle" aria-hidden="true"></i>
+{% endraw %}
